@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('image/dj-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.music-player h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.player-controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.volume-control {
+    margin: 15px 0;
+}
+
+.volume-control label {
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+.song-selector button {
+    background-color: #2d3e50;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.song-selector button:hover {
+    background-color: #ff6347;
+}
